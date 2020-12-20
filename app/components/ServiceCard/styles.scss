@@ -1,0 +1,24 @@
+.ServiceCard {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 120px; 
+  width: 550px; 
+  background: rgba(245, 243, 243, 0.877);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+  border-radius: 2%;
+  cursor: pointer;
+  	&:hover {
+      background-color: rgb(255, 255, 255);
+      transition: 250ms ease-in-out;
+			transform: scale(1.05);
+		}
+  .title {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .icon {
+    padding-right: 20px;
+  }
+}

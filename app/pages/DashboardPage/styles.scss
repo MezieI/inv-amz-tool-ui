@@ -1,0 +1,27 @@
+.DashboardPage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background: linear-gradient(red, blue);
+	height: 100vh;
+
+	.dashboard-title {
+		margin-top: 20px;
+		color: white;
+		text-align: center;
+		font-size: 34px;
+	}
+
+	.cards-container {
+		display: flex;
+		height: 10vh;
+		width: 100vw;
+		justify-content: space-evenly;
+		animation: moveUp 500ms alternate, fadeOut 500ms alternate;
+		flex-wrap: wrap;
+	}
+	.icon {
+		padding-right: 20px;
+		font-size: 80px;
+  }
+}
